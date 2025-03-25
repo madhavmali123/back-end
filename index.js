@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3000;
 
 const client = new Groq({
-    apiKey: process.env['groq_api_key'], // This is the default and can be omitted
+    apiKey: process.env['groq_api_key'],
 });
 
 app.use(express.json());
